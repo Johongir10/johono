@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: auto 0;
+}
+.super{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+   padding: 40px 50px 40px 50px ;
+}
+.super-text{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    align-items: center;
+}
+.super-mini{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+   text-align: none;
+    text-decoration: none;
+}
+ul a{
+    text-decoration: none;
+    align-items: center;
+    text-align: none;
+}
+ul:hover{
+    color: #FF7A50;
+}
+.btn{
+    padding: 20px 30px 20px 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FF7A50;
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+    color: #FF7A50;
+}
+.fast{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.fast-text h1{
+  font-size: 40px;
+  color: #363853;
+  margin-top: 140px;
+}
+.fast-text p{
+    padding: 15px 15px;
+}
+.btnn{
+    background-color: #FF7A50;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 16px;
+}
+.stay-text h1{ 
+    font-size: 40px;
+    margin-top: 190px;
+
+}
+.stay-text p{
+    padding: 90px 90px ;
+}
+.stay{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-left: 190px;
+    padding: 30px 30px
+}
+.our-text h1{
+    color: #363853;
+}
+.our-text p{
+    padding: 30px 30px ;
+}
+.our{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 40px ;
+}
+.offer{
+    display: flex;
+    justify-content: center;
+    padding-left: 220px;
+}
+.ftr{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.ftr-text{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 30px 30px ;
+}
+.ftr-text ul{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
